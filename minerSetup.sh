@@ -13,5 +13,7 @@ apt-get install libssl-dev -y
 ./autogen.sh #
 ./configure
 make
+printf "To use type ./minerd with any options you want while in the cpuminer-multi folder\n"
+printf "For example ./minerd -a cryptonight -o stratum+tcp://fcn-xmr.pool.minergate.com:45590 -u joebob@saintly.com -p x -t 4"
 
 fi

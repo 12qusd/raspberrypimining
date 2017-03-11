@@ -3,7 +3,7 @@ if [ "$EUID" -ne 0 ]
 	then echo "Please run as root"
 else
 apt-get update -y
-apt-get install git -y
+git --version || apt-get install git -y
 git clone https://github.com/lucasjones/cpuminer-multi.git
 cd cpuminer-multi
 apt-get install autoconf -y

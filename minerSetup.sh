@@ -5,6 +5,7 @@ else
 git clone https://github.com/lucasjones/cpuminer-multi.git
 cd cpuminer-multi
 apt-get update -y
+apt-get install git -y
 apt-get install autoconf -y
 apt-get install libcurl4-openssl-dev -y
 apt-get install libjansson-dev -y

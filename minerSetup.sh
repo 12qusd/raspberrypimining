@@ -6,7 +6,7 @@ apt update -y
 git --version || apt-get install git -y
 git clone https://github.com/lucasjones/cpuminer-multi.git
 cd cpuminer-multi
-apt install autoconf libcurl4-openssl-dev ibjansson-dev openssl libssl-dev -y
+apt install autoconf libcurl4-openssl-dev libjansson-dev openssl libssl-dev -y
 ./autogen.sh #
 ./configure
 make
